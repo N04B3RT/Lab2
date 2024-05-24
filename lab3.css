@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {  
+    padding: 8px;
+    text-align: left;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -200px;  
+  
+}
+p{
+    max-width: 3px;
+    text-align: right;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    border-radius: 8px;
+}
