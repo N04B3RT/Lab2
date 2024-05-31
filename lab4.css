@@ -1,0 +1,44 @@
+h3.solid{
+    border-style: solid;
+}
+p.intro{
+    font-style: italic;
+    color: blue;
+    text-align: center;
+    border-style: dotted;
+    border-color: blue;
+    font-size: medium;
+    font-weight: bolder;
+}
+h3.intrests{
+    background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+ul.ul{
+    background: #310331;
+  color: rgb(255, 0, 0);
+  padding: 5px;
+  margin-left: 35px;
+}
+img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+h4.toilet{
+    color: brown;
+    font-weight: bolder;
+}
+body{
+    background-image: url(/gaj0On.jpg);
+    background-size: contain;
+    
+}
+dl.dl{
+    color: white;
+    font-style: italic;
+}
+
