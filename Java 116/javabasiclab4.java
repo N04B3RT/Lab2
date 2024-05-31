@@ -17,7 +17,7 @@ public class javabasiclab4 {
         System.out.println("my student id is" + studentid + ".");
         
     }
-    //getter or whatever
+    //getter or whateverr
     public String getName(){
         return name;
     }
