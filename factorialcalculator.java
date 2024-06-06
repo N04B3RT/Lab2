@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class factorialcalculator {
     public static void main(String[] args) {
         int num = 10;
