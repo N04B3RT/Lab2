@@ -1,0 +1,81 @@
+h1.this{
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    background-origin: padding-box;
+    background-color: red;
+}
+h2.kendrick{
+    text-align: center;
+    color: red;
+}
+      h2.not{
+        text-align: left;
+      }
+audio{
+    justify-content: right;
+}
+nav.navbar{
+    border-style: solid;
+    background-color: red;
+    background-origin: padding-box;
+}
+.container {
+    position: absolute;
+    width: auto;
+    
+  }
+  
+  .image {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: red;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(255, 0, 0));
+    background-size: contain;
+}
