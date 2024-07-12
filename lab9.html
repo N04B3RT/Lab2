@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Space</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lab9.css">
+    <script src="https://kit.fontawesome.com/f7afa10bc2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                TECH SPACE
+                <i class="fa-solid fa-rocket"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="survey.html">Short survey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Tech Space</h1>
+            <p class="lead">Explore the best computer parts and technologies</p>
+        </div>
+    </header>
+
+    <section class="filter-buttons container my-4 text-center">
+        <button class="btn btn-outline-dark filter-btn" data-filter="all">All</button>
+        <button class="btn btn-outline-dark filter-btn" data-filter="cpu">CPU</button>
+        <button class="btn btn-outline-dark filter-btn" data-filter="gpu">GPU</button>
+        <button class="btn btn-outline-dark filter-btn" data-filter="ram">RAM</button>
+        <button class="btn btn-outline-dark filter-btn" data-filter="storage">Storage</button>
+    </section>
+
+    <section class="gallery container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item cpu">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/61jRMCAX4CL._AC_SL1500_.jpg" class="card-img-top" alt="CORE i9 14400">
+                    <div class="card-body">
+                        <h5 class="card-title">CORE i9 14400K</h5>
+                        <p class="card-text">High-performance CPU for gaming and productivity.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item gpu">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/71t1ClD2EtL._AC_SL1500_.jpg" class="card-img-top" alt="RTX 4090">
+                    <div class="card-body">
+                        <h5 class="card-title">RTX 4060</h5>
+                        <p class="card-text">Powerful GPU for stunning graphics performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item ram">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/RAM.jpg" class="card-img-top" alt="RAM 1">
+                    <div class="card-body">
+                        <h5 class="card-title">DDR5 16GB</h5>
+                        <p class="card-text">High-speed RAM for smooth multitasking.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item storage">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/SSD.jpg" class="card-img-top" alt="Storage 1">
+                    <div class="card-body">
+                        <h5 class="card-title">NVME 2TB</h5>
+                        <p class="card-text">Large capacity SSD for fast and reliable storage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item cpu">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/I5.jpg" class="card-img-top" alt="CPU 1">
+                    <div class="card-body">
+                        <h5 class="card-title">CORE i5 13700H</h5>
+                        <p class="card-text">High-performance CPU.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item gpu">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/RTX1030.jpg" class="card-img-top" alt="GPU 1">
+                    <div class="card-body">
+                        <h5 class="card-title">GTX 1030</h5>
+                        <p class="card-text">OK GPU for performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item ram">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/RAM CC-.jpg" class="card-img-top" alt="RAM 1">
+                    <div class="card-body">
+                        <h5 class="card-title">RAM 8GB</h5>
+                        <p class="card-text">High-speed RAM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item storage">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/SSD CC.jpg" class="card-img-top" alt="Storage 1">
+                    <div class="card-body">
+                        <h5 class="card-title">SSD</h5>
+                        <p class="card-text"> SSD for storage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <section class="gallery container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item cpu">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/AMD ON TOP.jpg" class="card-img-top" alt="CPU 1">
+                    <div class="card-body">
+                        <h5 class="card-title">RYZEN 7700X3D</h5>
+                        <p class="card-text">High-performance CPU for gaming and productivity.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item gpu">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/2 4060.jpg" class="card-img-top" alt="GPU 1">
+                    <div class="card-body">
+                        <h5 class="card-title">DUAL 4060</h5>
+                        <p class="card-text">Powerful GPU for stunning graphics performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item ram">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/2 RAM.jpg" class="card-img-top" alt="RAM 1">
+                    <div class="card-body">
+                        <h5 class="card-title">2 DDR5 RAM</h5>
+                        <p class="card-text">High-speed RAM for smooth multitasking.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item storage">
+                <div class="card">
+                    <img src="/Lab2/lab9 img/51hRNUHkz3L._AC_SL1500_.jpg" class="card-img-top" alt="Storage 1">
+                    <div class="card-body">
+                        <h5 class="card-title">32GB NVME</h5>
+                        <p class="card-text">Large capacity SSD for fast and reliable storage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="close">&times;</span>
+            <img class="lightbox-image" src="" alt="">
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="lab9.js"></script>
+</body>
+</html>
