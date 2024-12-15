@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+
+}
+footer{
+    border-style: solid;
+    background-color: blue;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .list{
+    text-align: center;
+  }
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
+body{
+    background-image: url(pexels-apasaric-325185.jpg);
+    background-size: 100%;
+
+}

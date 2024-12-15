@@ -1,0 +1,8 @@
+Your submission was successful!
+Course: 1972.202450, Web Programming and Design - CPAN-134-0ND
+Assessment: Lab 10
+
+Submission date: 7/18/24, 4:09 PM
+Submission size: 180 bytes
+Submitter: Norbert Elebeonu
+Confirmation number: b64031fe47ec4477a53c3a08f1762db3
